@@ -1,0 +1,780 @@
+DF1:
+
+Rk -- Rank
+    This is a count of the rows from top to bottom.
+    It is recalculated following the sorting of a column.
+
+Nation -- Nationality of the player.
+    First, we check our records in international play at senior level.
+    Then youth level.
+    Then citizenship presented on wikipedia.
+    Finally, we use their birthplace when available.
+
+Pos -- Position most commonly played by the player
+    GK - Goalkeepers
+    DF - Defenders
+    MF - Midfielders
+    FW - Forwards
+    FB - Fullbacks
+    LB - Left Backs
+    RB - Right Backs
+    CB - Center Backs
+    DM - Defensive Midfielders
+    CM - Central Midfielders
+    LM - Left Midfielders
+    RM - Right Midfielders
+    WM - Wide Midfielders
+    LW - Left Wingers
+    RW - Right Wingers
+    AM - Attacking Midfielders
+
+Comp -- Competition
+    Number next to competition states which level in the country's league pyramid this league occupies.
+
+Age -- Current age
+    Age at season start
+    Given on August 1 for winter leagues
+    and February 1 for summer leagues.
+
+Playing Time
+
+MP -- Matches Played by the player or squad
+
+Starts -- Game or games started by player
+
+90s -- 90s played
+
+Minutes played divided by 90
+
+Performance
+    Gls -- Goals scored or allowed
+    Ast -- Assists
+    G-PK -- Non-Penalty Goals
+    PK -- Penalty Kicks Made
+    PKatt -- Penalty Kicks Attempted
+    CrdY -- Yellow Cards
+    CrdR -- Red Cards
+
+Per 90 Minutes
+    Gls -- Goals Scored per 90 minutes
+    Minimum 30 minutes played per squad game to qualify as a leader
+    Ast -- Assists per 90 minutes
+    Minimum 30 minutes played per squad game to qualify as a leader
+    G+A -- Goals and Assists per 90 minutes
+    Minimum 30 minutes played per squad game to qualify as a leader
+    G-PK -- Goals minus Penalty Kicks made per 90 minutes
+    Minimum 30 minutes played per squad game to qualify as a leader
+    G+A-PK -- Goals plus Assists minus Penalty Kicks made per 90 minutes
+    Minimum 30 minutes played per squad game to qualify as a leader
+
+Expected
+    xG -- Expected Goals
+    xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    npxG -- Non-Penalty Expected Goals
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    xAG -- Expected Assisted Goals
+    xG which follows a pass that assists a shot
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    npxG+xAG -- Non-Penalty Expected Goals plus Assisted Goals
+    xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    Minimum 30 minutes played per squad game to qualify as a leader
+    Per 90 Minutes
+    xG -- Expected Goals per 90 minutes
+    xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    Minimum 30 minutes played per squad game to qualify as a leader
+    xAG -- Expected Assisted Goals per 90 minutes
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    Minimum 30 minutes played per squad game to qualify as a leader
+    xG+xAG -- Expected Goals plus Assisted Goals per 90 minutes
+    xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    Minimum 30 minutes played per squad game to qualify as a leader
+    npxG -- Non-Penalty Expected Goals per 90 minutes
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    Minimum 30 minutes played per squad game to qualify as a leader
+    npxG+xAG -- Non-Penalty Expected Goals plus Assisted Goals per 90 minutes
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    Minimum 30 minutes played per squad game to qualify as a leader
+    
+DF3:
+
+Rk -- Rank
+    This is a count of the rows from top to bottom.
+    It is recalculated following the sorting of a column.
+
+Nation -- Nationality of the player.
+    First, we check our records in international play at senior level.
+    Then youth level.
+    Then citizenship presented on wikipedia.
+    Finally, we use their birthplace when available.
+
+Pos -- Position most commonly played by the player
+    GK - Goalkeepers
+    DF - Defenders
+    MF - Midfielders
+    FW - Forwards
+    FB - Fullbacks
+    LB - Left Backs
+    RB - Right Backs
+    CB - Center Backs
+    DM - Defensive Midfielders
+    CM - Central Midfielders
+    LM - Left Midfielders
+    RM - Right Midfielders
+    WM - Wide Midfielders
+    LW - Left Wingers
+    RW - Right Wingers
+    AM - Attacking Midfielders
+
+Comp -- Competition
+    Number next to competition states which level in the country's league pyramid this league occupies.
+
+Age -- Current age
+    Age at season start
+    Given on August 1 for winter leagues
+    and February 1 for summer leagues.
+
+Playing Time
+
+90s -- 90s played
+
+Minutes played divided by 90
+
+Goals
+    GA -- Goals Against
+    PKA -- Penalty Kicks Allowed
+    FK -- Free Kick Goals Against
+    CK -- Corner Kick Goals Against
+    OG -- Own Goals Scored Against Goalkeeper
+
+Expected
+    PSxG -- Post-Shot Expected Goals
+    PSxG is expected goals based on how likely the goalkeeper is to save the shot
+    xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    PSxG/SoT -- Post-Shot Expected Goals per Shot on Target
+    Not including penalty kicks
+    PSxG is expected goals based on how likely the goalkeeper is to save the shot
+    Higher numbers indicate that shots on target faced are more difficult to stop and more likely to score
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    PSxG+/- -- Post-Shot Expected Goals minus Goals Allowed
+    Positive numbers suggest better luck or an above average ability to stop shots
+    PSxG is expected goals based on how likely the goalkeeper is to save the shot
+    Note: Does not include own goals
+    xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    /90 -- Post-Shot Expected Goals minus Goals Allowed per 90 minutes
+    Positive numbers suggest better luck or an above average ability to stop shots
+    PSxG is expected goals based on how likely the goalkeeper is to save the shot
+    Note: Does not include own goals
+    xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+
+Launched
+    Cmp -- Passes Completed
+    Passes longer than 40 yards
+    Att -- Passes Attempted
+    Passes longer than 40 yards
+    Cmp% -- Pass Completion Percentage
+    Passes longer than 40 yards
+
+Passes
+    Att -- Passes Attempted
+    Not including goal kicks
+    Thr -- Throws Attempted
+    Launch% -- Percentage of Passes that were Launched
+    Not including goal kicks
+    Passes longer than 40 yards
+    AvgLen -- Average length of passes, in yards
+    Not including goal kicks
+
+Goal Kicks
+    Att -- Goal Kicks Attempted
+    Launch% -- Percentage of Goal Kicks that were Launched
+    Passes longer than 40 yards
+    AvgLen -- Average length of goal kicks, in yards
+
+Crosses
+    Opp -- Opponent's attempted crosses into penalty area
+    Stp -- Number of crosses into penalty area which were successfully stopped by the goalkeeper
+    Stp% -- Percentage of crosses into penalty area which were successfully stopped by the goalkeeper
+
+Sweeper
+    #OPA -- # of defensive actions outside of penalty area
+    #OPA/90 -- Defensive actions outside of penalty area per 90 minutes
+    AvgDist -- Average distance from goal (in yards) of all defensive actions
+    
+DF4:
+
+Rk -- Rank
+    This is a count of the rows from top to bottom.
+    It is recalculated following the sorting of a column.
+
+Nation -- Nationality of the player.
+    First, we check our records in international play at senior level.
+    Then youth level.
+    Then citizenship presented on wikipedia.
+    Finally, we use their birthplace when available.
+
+Pos -- Position most commonly played by the player
+    GK - Goalkeepers
+    DF - Defenders
+    MF - Midfielders
+    FW - Forwards
+    FB - Fullbacks
+    LB - Left Backs
+    RB - Right Backs
+    CB - Center Backs
+    DM - Defensive Midfielders
+    CM - Central Midfielders
+    LM - Left Midfielders
+    RM - Right Midfielders
+    WM - Wide Midfielders
+    LW - Left Wingers
+    RW - Right Wingers
+    AM - Attacking Midfielders
+
+Comp -- Competition
+    Number next to competition states which level in the country's league pyramid this league occupies.
+
+Age -- Current age
+    Age at season start
+    Given on August 1 for winter leagues
+    and February 1 for summer leagues.
+
+Playing Time
+
+90s -- 90s played
+
+Minutes played divided by 90
+
+SCA
+    SCA -- Shot-Creating Actions
+    The two offensive actions directly leading to a shot, such as passes, dribbles and drawing fouls. Note: A single player can receive credit for multiple actions and the shot-taker can also receive credit.
+    SCA90 -- Shot-Creating Actions per 90 minutes
+    Minimum 30 minutes played per squad game to qualify as a leader
+
+SCA Types
+    PassLive -- Completed live-ball passes that lead to a shot attempt
+    PassDead -- Completed dead-ball passes that lead to a shot attempt.
+    Includes free kicks, corner kicks, kick offs, throw-ins and goal kicks
+    Drib -- Successful dribbles that lead to a shot attempt
+    Sh -- Shots that lead to another shot attempt
+    Fld -- Fouls drawn that lead to a shot attempt
+    Def -- Defensive actions that lead to a shot attempt
+
+GCA
+    GCA -- Goal-Creating Actions
+    The two offensive actions directly leading to a goal, such as passes, dribbles and drawing fouls. Note: A single player can receive credit for multiple actions and the shot-taker can also receive credit.
+    GCA90 -- Goal-Creating Actions per 90 minutes
+    Minimum 30 minutes played per squad game to qualify as a leader
+
+GCA Types
+    PassLive -- Completed live-ball passes that lead to a goal
+    PassDead -- Completed dead-ball passes that lead to a goal. Includes free kicks, corner kicks, kick offs, throw-ins and goal kicks
+    Drib -- Successful dribbles that lead to a goal
+    Sh -- Shots that lead to another goal-scoring shot
+    Fld -- Fouls drawn that lead to a goal
+    Def -- Defensive actions that lead to a goal
+    
+DF5:
+
+Rk -- Rank
+    This is a count of the rows from top to bottom.
+    It is recalculated following the sorting of a column.
+
+Nation -- Nationality of the player.
+    First, we check our records in international play at senior level.
+    Then youth level.
+    Then citizenship presented on wikipedia.
+    Finally, we use their birthplace when available.
+
+Pos -- Position most commonly played by the player
+    GK - Goalkeepers
+    DF - Defenders
+    MF - Midfielders
+    FW - Forwards
+    FB - Fullbacks
+    LB - Left Backs
+    RB - Right Backs
+    CB - Center Backs
+    DM - Defensive Midfielders
+    CM - Central Midfielders
+    LM - Left Midfielders
+    RM - Right Midfielders
+    WM - Wide Midfielders
+    LW - Left Wingers
+    RW - Right Wingers
+    AM - Attacking Midfielders
+
+Comp -- Competition
+    Number next to competition states which level in the country's league pyramid this league occupies.
+
+Age -- Current age
+    Age at season start
+    Given on August 1 for winter leagues
+    and February 1 for summer leagues.
+
+Playing Time
+
+90s -- 90s played
+
+Minutes played divided by 90
+
+Total
+    Att -- Passes Attempted
+    Pass Types
+    Live -- Live-ball passes
+    Dead -- Dead-ball passes
+    Includes free kicks, corner kicks, kick offs, throw-ins and goal kicks
+    FK -- Passes attempted from free kicks
+    TB -- Completed pass sent between back defenders into open space
+    Sw -- Passes that travel more than 40 yards of the width of the pitch
+    Crs -- Crosses
+    TI -- Throw-Ins taken
+    CK -- Corner Kicks
+
+Corner Kicks
+    In -- Inswinging Corner Kicks
+    Out -- Outswinging Corner Kicks
+    Str -- Straight Corner Kicks
+
+Outcomes
+    Cmp -- Passes Completed
+    Off -- Offsides
+    Blocks -- Blocked by the opponent who was standing it the path
+    
+DF6:
+
+Rk -- Rank
+    This is a count of the rows from top to bottom.
+    It is recalculated following the sorting of a column.
+
+Nation -- Nationality of the player.
+    First, we check our records in international play at senior level.
+    Then youth level.
+    Then citizenship presented on wikipedia.
+    Finally, we use their birthplace when available.
+
+Pos -- Position most commonly played by the player
+    GK - Goalkeepers
+    DF - Defenders
+    MF - Midfielders
+    FW - Forwards
+    FB - Fullbacks
+    LB - Left Backs
+    RB - Right Backs
+    CB - Center Backs
+    DM - Defensive Midfielders
+    CM - Central Midfielders
+    LM - Left Midfielders
+    RM - Right Midfielders
+    WM - Wide Midfielders
+    LW - Left Wingers
+    RW - Right Wingers
+    AM - Attacking Midfielders
+
+Comp -- Competition
+    Number next to competition states which level in the country's league pyramid this league occupies.
+
+Age -- Current age
+    Age at season start
+    Given on August 1 for winter leagues
+    and February 1 for summer leagues.
+
+Playing Time
+
+90s -- 90s played
+
+Minutes played divided by 90
+
+Standard
+        Gls -- Goals scored or allowed
+        Sh -- Shots Total
+        Does not include penalty kicks
+        SoT -- Shots on target
+        Note: Shots on target do not include penalty kicks
+        SoT% -- Percentage of shots that are on target
+        Minimum .395 shots per squad game to qualify as a leader
+        Note: Shots on target do not include penalty kicks
+        Sh/90 -- Shots total per 90 minutes
+        Minimum 30 minutes played per squad game to qualify as a leader
+    SoT/90 -- Shots on target per 90 minutes
+    Minimum 30 minutes played per squad game to qualify as a leader
+    Note: Shots on target do not include penalty kicks
+    G/Sh -- Goals per shot
+    Minimum .395 shots per squad game to qualify as a leader
+    G/SoT -- Goals per shot on target
+    Minimum .111 shots on target per squad game to qualify as a leader
+    Note: Shots on target do not include penalty kicks
+    Dist -- Average distance, in yards, from goal of all shots taken
+    Minimum .395 shots per squad game to qualify as a leader
+    Does not include penalty kicks
+
+FK -- Shots from free kicks
+
+PK -- Penalty Kicks Made
+
+PKatt -- Penalty Kicks Attempted
+
+Expected
+    xG -- Expected Goals
+    xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    npxG -- Non-Penalty Expected Goals
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    npxG/Sh -- Non-Penalty Expected Goals per shot
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    Minimum .395 shots per squad game to qualify as a leader
+    G-xG -- Goals minus Expected Goals
+    xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    np:G-xG -- Non-Penalty Goals minus Non-Penalty Expected Goals
+    xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    
+DF7:
+
+Competition Name -- Name the competition was known as for that season
+
+Playing Time
+
+MP -- Matches Played by the player or squad
+
+Tackles
+    Tkl -- Number of players tackled
+    TklW -- Tackles in which the tackler's team won possession of the ball
+    Def 3rd -- Tackles in defensive 1/3
+    Mid 3rd -- Tackles in middle 1/3
+    Att 3rd -- Tackles in attacking 1/3
+
+Vs Dribbles
+    Tkl -- Number of dribblers tackled
+    Att -- Number of times dribbled past plus number of tackles
+    Tkl% -- Percentage of dribblers tackled
+    Dribblers tackled divided by dribblers tackled plus times dribbled past
+    Minimum .625 dribblers contested per squad game to qualify as a leader
+    Past -- Number of times dribbled past by an opposing player
+
+Blocks
+    Blocks -- Number of times blocking the ball by standing in its path
+    Sh -- Number of times blocking a shot by standing in its path
+    Pass -- Number of times blocking a pass by standing in its path
+    Int -- Interceptions
+    Tkl+Int -- Number of players tackled plus number of interceptions
+    Clr -- Clearances
+    Err -- Mistakes leading to an opponent's shot
+    
+DF8:
+
+Competition Name -- Name the competition was known as for that season
+
+Playing Time
+
+MP -- Matches Played by the player or squad
+
+Performance
+
+Penalty Kicks
+    PKatt -- Penalty Kicks Attempted
+    PKA -- Penalty Kicks Allowed
+    PKsv -- Penalty Kicks Saved
+    PKm -- Penalty Kicks Missed
+    Save% -- Penalty Save Percentage
+    Penalty Kick Goals Against/Penalty Kick Attempts
+    Penalty shots that miss the target are not included
+    
+DF9:
+
+Competition Name -- Name the competition was known as for that season
+
+Playing Time
+
+MP -- Matches Played by the player or squad
+
+Performance
+    CrdY -- Yellow Cards
+    CrdR -- Red Cards
+    2CrdY -- Second Yellow Card
+    Fls -- Fouls Committed
+    Fld -- Fouls Drawn
+    Off -- Offsides
+    Crs -- Crosses
+    Int -- Interceptions
+    TklW -- Tackles in which the tackler's team won possession of the ball
+    PKwon -- Penalty Kicks Won
+    PKcon -- Penalty Kicks Conceded
+    OG -- Own Goals
+    Recov -- Number of loose balls recovered
+
+Aerial Duels
+    Won -- Aerials won
+    Lost -- Aerials lost
+    Won% -- Percentage of aerials won
+    Minimum .97 aerial duels per squad game to qualify as a leader
+    
+DF10:
+
+Competition Name -- Name the competition was known as for that season
+
+Playing Time
+
+MP -- Matches Played by the player or squad
+
+Total
+    Cmp -- Passes Completed
+    Att -- Passes Attempted
+    Cmp% -- Pass Completion Percentage
+    Minimum 30 minutes played per squad game to qualify as a leader
+    TotDist -- Total distance, in yards, that completed passes have traveled in any direction
+    PrgDist -- Progressive Distance
+    Total distance, in yards, that completed passes have traveled towards the opponent's goal. Note: Passes away from opponent's goal are counted as zero progressive yards.
+
+Short
+    Cmp -- Passes Completed
+    Passes between 5 and 15 yards
+    Att -- Passes Attempted
+    Passes between 5 and 15 yards
+    Cmp% -- Pass Completion Percentage
+    Passes between 5 and 15 yards
+    Minimum 30 minutes played per squad game to qualify as a leader
+
+Medium
+    Cmp -- Passes Completed
+    Passes between 15 and 30 yards
+    Att -- Passes Attempted
+    Passes between 15 and 30 yards
+    Cmp% -- Pass Completion Percentage
+    Passes between 15 and 30 yards
+    Minimum 30 minutes played per squad game to qualify as a leader
+
+Long
+    Cmp -- Passes Completed
+    Passes longer than 30 yards
+    Att -- Passes Attempted
+    Passes longer than 30 yards
+    Cmp% -- Pass Completion Percentage
+    Passes longer than 30 yards
+    Minimum 30 minutes played per squad game to qualify as a leader
+
+Ast -- Assists
+    xAG -- Expected Assisted Goals
+    xG which follows a pass that assists a shot
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    xA -- Expected Assists
+    The likelihood each completed pass becomes a goal assists
+    given the pass type, phase of play, location and distance.
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    Minimum 30 minutes played per squad game to qualify as a leader
+    A-xAG -- Assists minus Expected Goals Assisted
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+
+KP -- Passes that directly lead to a shot (assisted shots)
+
+1/3 -- Completed passes that enter the 1/3 of the pitch closest to the goal
+    Not including set pieces
+
+PPA -- Completed passes into the 18-yard box
+    Not including set pieces
+    CrsPA -- Completed crosses into the 18-yard box
+    Not including set pieces
+
+Prog -- Progressive Passes
+    Completed passes that move the ball towards the opponent's goal at least 10 yards from its furthest point in the last six passes, or any completed pass into the penalty area. Excludes passes from the defending 40% of the pitch
+
+DF11:
+
+Rk -- Rank
+    This is a count of the rows from top to bottom.
+    It is recalculated following the sorting of a column.
+
+Nation -- Nationality of the player.
+    First, we check our records in international play at senior level.
+    Then youth level.
+    Then citizenship presented on wikipedia.
+    Finally, we use their birthplace when available.
+
+Pos -- Position most commonly played by the player
+    GK - Goalkeepers
+    DF - Defenders
+    MF - Midfielders
+    FW - Forwards
+    FB - Fullbacks
+    LB - Left Backs
+    RB - Right Backs
+    CB - Center Backs
+    DM - Defensive Midfielders
+    CM - Central Midfielders
+    LM - Left Midfielders
+    RM - Right Midfielders
+    WM - Wide Midfielders
+    LW - Left Wingers
+    RW - Right Wingers
+    AM - Attacking Midfielders
+
+Comp -- Competition
+    Number next to competition states which level in the country's league pyramid this league occupies.
+
+Age -- Current age
+    Age at season start
+    Given on August 1 for winter leagues
+    and February 1 for summer leagues.
+
+Playing Time
+    MP -- Matches Played by the player or squad
+    Mn/MP -- Minutes Per Match Played
+    Min% -- Percentage of Minutes Played
+    Percentage of team's total minutes in which player was on the pitch
+    Player minutes played divided by team total minutes played
+    Minimum 30 minutes played per squad game to qualify as a leader
+    90s -- 90s played
+    Minutes played divided by 90
+
+Starts
+    Starts -- Game or games started by player
+    Mn/Start -- Minutes Per Match Started
+    Minimum 30 minutes played per squad game to qualify as a leader
+    Compl -- Complete matches played
+    Subs
+    Subs -- Games as sub
+    Game or games player did not start, so as a substitute
+    Mn/Sub -- Minutes Per Substitution
+    Minimum 30 minutes played per squad game to qualify as a leader
+    unSub -- Games as an unused substitute
+
+Team Success
+    PPM -- Points per Match
+    Average number of points earned by the team from matches in which the player appeared
+    Minimum 30 minutes played per squad game to qualify as a leader
+    onG -- Goals scored by team while on pitch
+    onGA -- Goals allowed by team while on pitch
+    +/- -- Plus/Minus
+    Goals scored minus goals allowed by the team while the player was on the pitch.
+    +/-90 -- Plus/Minus per 90 Minutes
+    Goals scored minus goals allowed by the team while the player was on the pitch per 90 minutes played.
+    Minimum 30 minutes played per squad game to qualify as a leader
+    On-Off -- Plus/Minus Net per 90 Minutes
+    Net goals per 90 minutes by the team while the player was on the pitch minus net goals allowed per 90 minutes by the team while the player was off the pitch.
+    Minimum 30 minutes played per squad game to qualify as a leader
+    Team Success (xG)
+    onxG -- Expected goals by team while on pitch
+    xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    onxGA -- Expected goals allowed by team while on pitch
+    xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    xG+/- -- xG Plus/Minus
+    Expected goals scored minus expected goals allowed by the team while the player was on the pitch.
+    xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+    xG+/-90 -- xG Plus/Minus per 90 Minutes
+    Expected goals scored minus expected goals allowed by the team while the player was on the pitch per 90 minutes played.
+    xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).
+    Provided by Opta.
+    An underline indicates there is a match that is missing data, but will be updated when available.
+Minimum 30 minutes played per squad game to qualify as a leader
+On-Off -- xG Plus/Minus Net per 90 Minutes
+Net expected goals per 90 minutes by the team while the player was on the pitch minus net expected goals per 90 minutes by the team while the player was off the pitch.
+Minimum 30 minutes played per squad game to qualify as a leader
+
+DF12:
+
+Rk -- Rank
+    This is a count of the rows from top to bottom.
+    It is recalculated following the sorting of a column.
+
+Nation -- Nationality of the player.
+    First, we check our records in international play at senior level.
+    Then youth level.
+    Then citizenship presented on wikipedia.
+    Finally, we use their birthplace when available.
+
+Pos -- Position most commonly played by the player
+    GK - Goalkeepers
+    DF - Defenders
+    MF - Midfielders
+    FW - Forwards
+    FB - Fullbacks
+    LB - Left Backs
+    RB - Right Backs
+    CB - Center Backs
+    DM - Defensive Midfielders
+    CM - Central Midfielders
+    LM - Left Midfielders
+    RM - Right Midfielders
+    WM - Wide Midfielders
+    LW - Left Wingers
+    RW - Right Wingers
+    AM - Attacking Midfielders
+
+Comp -- Competition
+    Number next to competition states which level in the country's league pyramid this league occupies.
+
+Age -- Current age
+    Age at season start
+    Given on August 1 for winter leagues
+    and February 1 for summer leagues.
+
+Playing Time
+    90s -- 90s played
+    Minutes played divided by 90
+
+Touches
+    Touches -- Number of times a player touched the ball. Note: Receiving a pass, then dribbling, then sending a pass counts as one touch
+    Def Pen -- Touches in defensive penalty area
+    Def 3rd -- Touches in defensive 1/3
+    Mid 3rd -- Touches in middle 1/3
+    Att 3rd -- Touches in attacking 1/3
+    Att Pen -- Touches in attacking penalty area
+    Live -- Live-ball touches. Does not include corner kicks, free kicks, throw-ins, kick-offs, goal kicks or penalty kicks
+
+Dribbles
+    Succ -- Dribbles Completed Successfully
+    Att -- Dribbles Attempted
+    Succ% -- Percentage of Dribbles Completed Successfully
+    Minimum .5 dribbles per squad game to qualify as a leader
+    Mis -- Number of times a player failed when attempting to gain control of a ball
+    Dis -- Number of times a player loses control of the ball after being tackled by an opposing player. Does not include attempted dribbles
+
+Receiving
+    Rec -- Number of times a player successfully received a pass
+    Prog -- Progressive Passes Received
+    Completed passes that move the ball towards the opponent's goal at least 10 yards from its furthest point in the last six passes, or any completed pass into the penalty area. Excludes passes from the defending 40% of the pitch.
+    
+DF13:
+
+Rk -- Rank
+    This is a count of the rows from top to bottom.
+    It is recalculated following the sorting of a column.
+Comp -- Competition
+    Number next to competition states which level in the country's league pyramid this league occupies.
+
+Pl -- Number of Players under contract
+    % Estimated -- Percentage of contracts estimated
+    
