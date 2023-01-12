@@ -5,7 +5,7 @@ A machine learning project with two predictive models. This project is written i
 Please contact me on [Linkedin](https://www.linkedin.com/in/nickkempe) if you are looking to hire a data scientist.
 
 ###  [Football Salary Predictor](https://github.com/NickBDA/footballpredictor/blob/main/src/notebooks/REG_EDA.ipynb)
-* Used full player and team stats from 2017/18 season for Big 5 leagues from FBREF.com and 2017 salary data from Capology.com (u/lcosmin scrape) 
+* Used player and team stats from 2017/18 season for Big 5 leagues (FBREF.com) and 2017 salary data from (Capology u/eddwebster scrape) 
 * Merged various raw datasets into master dataframe and preprocessed data for modeling
 * Investigated outliers, anamolies and categorical to determine best treatment for effective modeling
 * Used XGBoostRegressor for baseline due to it's ability to handle NaN values
